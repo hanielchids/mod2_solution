@@ -1,0 +1,62 @@
+body {
+	font-family: Lato, Sans-serif;
+	color: black;
+}
+
+div.Heading h1{
+	color: grey;
+	text-align: center;
+}
+
+div.block {
+	float: left;
+	width: 30%;
+	background-color: dodgerblue;
+	margin: 5px 5px 5px 5px;
+}
+
+.one{
+	color: #A9A9A9;
+	background-color: lightblue;
+	float: right;
+	border: 1px solid black;
+}
+
+.two {
+	color: white;
+	background-color: darkblue;
+	float: right;
+	border: 1px solid black;
+}
+
+.three {
+	color: darkblue;
+	background-color: #A9A9A9;
+	float: right;
+	border: 1px solid black;
+
+}
+
+/*responsiveness for tablet view which is between 768px and 991px*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	div.block {
+		width: 49%;
+		margin: 3px 3px 3px 3px;
+	}
+
+	#block3{
+		width: 100%;
+		margin: 3px 3px 3px 3px;
+	}
+}
+
+/*responsiveness for mobile view which is a max of 767px*/
+
+@media screen and (max-width: 767px) {
+	div.block {
+		width: 100%;
+		margin: 3px 3px 3px 3px;
+	}
+}
+
